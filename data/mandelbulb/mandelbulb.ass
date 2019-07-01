@@ -7,6 +7,8 @@ options
  GI_diffuse_depth 1
  GI_specular_depth 1
  GI_diffuse_samples 3
+ texture_searchpath "./data/images"
+ procedural_searchpath "./lib"
 }
 
 driver_jpeg

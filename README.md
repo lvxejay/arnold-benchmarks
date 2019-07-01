@@ -27,12 +27,14 @@ To allow Arnold to find the provided plugins, set kick's plugin load path with `
 Render the ass files using kick:
 
 ```
+cd /path/to/arnold_benchmark
 /opt/solidangle/Arnold-5.3.0.2/bin/kick \
 -dp -dw \
 -l /path/to/arnold_benchmark/lib \
 -i /path/to/arnold_benchmark/data/mandelbulb/mandelbulb.ass \
 -o /path/to/arnold_benchmark/render/mandelbulb.jpg
 ```
+*Note you need to be in the root of the repo before you run the commands above*
 
 ## Advanced
 

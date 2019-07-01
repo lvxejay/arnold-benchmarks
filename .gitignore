@@ -1,4 +1,7 @@
+workspace.mel
+.mayaSwatches/
 .vscode/
 incrementalSave
 *.ma
 *.mb
+*.jpg
