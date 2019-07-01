@@ -14,7 +14,7 @@ options
 driver_jpeg
 {
  name /out/arnold1:jpeg
- filename "mandelbulb.jpg"
+ filename "render/mandelbulb.jpg"
 }
 
 gaussian_filter
