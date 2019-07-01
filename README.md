@@ -13,28 +13,27 @@ To allow Arnold to find the provided plugins, set kick's plugin load path with `
 1. [Antonio Bosi CPU Benchmarks](https://www.antoniobosi.com/maya-3d-models-downloads-books-guides-reviews-advices/arnold-render-cpu-speed-benchmark)
 
     ```
-    arnold_benchmarks/data/bosi_bench/benchmark_01
+    data/bosi_bench
     ```
 
 2. [Mandelulb - Solid Angle](https://docs.arnoldrenderer.com/display/A5AFMUG/How+to+Render+a+Mandelbulb)
 
     ```
-    arnold_benchmarks/data/mandelbulb
+    data/mandelbulb
     ```
 
 ## Usage
 
-Render the ass files using kick:
+*Note: You must be in the root of the repo before running these commands.*
 
 ```
+# Render an ass file using kick:
 cd /path/to/arnold_benchmark
 /opt/solidangle/Arnold-5.3.0.2/bin/kick \
--dp -dw \
--l /path/to/arnold_benchmark/lib \
--i /path/to/arnold_benchmark/data/mandelbulb/mandelbulb.ass \
--o /path/to/arnold_benchmark/render/mandelbulb.jpg
+-dp -dw -v 6 \
+-i ./data/mandelbulb/mandelbulb.ass
 ```
-*Note you need to be in the root of the repo before you run the commands above*
+
 
 ## Advanced
 

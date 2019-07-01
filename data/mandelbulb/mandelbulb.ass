@@ -76,7 +76,6 @@ mandelbulb
 {
  name /obj/MandelJulia_Procedural1
  shader "/shop/standard1"
- dso "mandelbulb.so"
  grid_size 1600
  max_iterations 10
  power 8
